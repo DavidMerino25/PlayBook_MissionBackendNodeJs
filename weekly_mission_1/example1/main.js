@@ -12,7 +12,7 @@ console.log(myCar) // Imprimiendo objeto
 const myModule = (() => {
 
 // Variables de contexto local
- const privateFoo = "Soy un valor privado, solo me usan dentro de este objeto"
+ const privateFoo = "Soy un valor privado, solo pueden usarme dentro de este objeto"
  const privateBar = [1,2,3,4]
  const baz = "Soy un valor que va a ser expuesto"
 
