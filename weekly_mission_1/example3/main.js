@@ -1,5 +1,6 @@
 /*
   node main.js
+  Otra forma de modularización
 */
 
 const logger1 = require('./logger_1')
