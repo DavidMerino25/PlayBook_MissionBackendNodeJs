@@ -1,5 +1,5 @@
 const Issue ={
-    title:"Prblem with code",
+    title:"Problem with code",
     repositoryNameAssociated:"LaunchBlog",
     status:"Opened",
     numberOfComments:10,
@@ -13,7 +13,9 @@ const Issue ={
     return `Issue: ${this.title} Author: ${this.author}`
     },
     getGeneralInfo: function (params) {
-        
-    }
+        return `Name of Repository: ${this.repositoryNameAssociated} Status: ${this.status} Number of commets: ${this.numberOfComments} Labels: ${this.labels}`
+    } 
 }
-console.log(Issue.getTitleAndAuthor);
+console.log(Issue.getTitleAndAuthor());
+console.log(Issue.getGeneralInfo());
+// Son ejemplos de como hacer un objeto
