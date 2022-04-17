@@ -12,4 +12,5 @@ const PullRequest ={
     getTitleandAutor: function(){
       return `Title: ${this.title}, Autor: ${this.autor}`  
     }
+    
 }
