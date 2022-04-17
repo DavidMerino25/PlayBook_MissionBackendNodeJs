@@ -9,6 +9,6 @@ const PullRequest ={
         return this.status
     },
     getTitleandAutor: function(){
-        
+      return 'Title: '  
     }
 }
