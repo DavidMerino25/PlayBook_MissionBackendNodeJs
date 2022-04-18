@@ -73,3 +73,7 @@ console.log(stackExplorers);
 
 console.log("4 Obtén la lista de explorers que tengan en su stack 'js', usa FILTER (para validar un elemento en un lista se usa el método includes");
 
+const filterJS = explorers.filter((stackjs)=> 
+      stackjs.stack.includes('js')
+)
+console.log(filterJS);
