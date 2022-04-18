@@ -59,7 +59,17 @@ const explorers = [
     }
    ]
 
-console.log("Ejercicio 1 Imprimiendo nombres con foreach");
+console.log("1 Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH");
 explorers.forEach(explorer => console.log(explorer.name))
-console.log("Ejercicio  Imprimiendo stacks con foreach");
+
+console.log("2 Imprime el stack de cada explorer, usa FOR EACH");
 explorers.forEach(explorer => console.log(`Stack de ${explorer.name}: ${explorer.stack}`))
+
+console.log("3 Crea una nueva lista con las listas de stacks de cada explorer, usa MAP");
+const stackExplorers= explorers.map((stacks)=>{
+return stacks.stack
+})
+console.log(stackExplorers);
+
+console.log("4 Obtén la lista de explorers que tengan en su stack 'js', usa FILTER (para validar un elemento en un lista se usa el método includes");
+
